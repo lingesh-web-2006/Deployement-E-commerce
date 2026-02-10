@@ -9,7 +9,7 @@ import com.ecommerce.service.OrderService;
 
 @RestController
 @RequestMapping("/order")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "euphonious-fenglisu-6adec8.netlify.app")
 public class OrderController {
 
     @Autowired
