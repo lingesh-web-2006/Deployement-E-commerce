@@ -2,8 +2,10 @@ C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\c
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\config\SecurityConfig.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\config\WebConfig.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\controller\AuthController.java
+C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\controller\EmailController.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\controller\OrderController.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\controller\ProductController.java
+C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\dto\EmailRequest.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\dto\OrderRequest.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\EcommerceApplication.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\entity\Order.java
@@ -12,5 +14,6 @@ C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\e
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\repository\OrderRepository.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\repository\UserRepository.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\service\CustomUserDetailsService.java
+C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\service\Emailservice.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\service\OrderService.java
 C:\Users\linge\OneDrive\Desktop\E-Commerce\Backend\src\main\java\com\ecommerce\service\UserService.java
