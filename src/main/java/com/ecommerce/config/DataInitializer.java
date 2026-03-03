@@ -1,5 +1,4 @@
 package com.ecommerce.config;
-
 import com.ecommerce.entity.User;
 import com.ecommerce.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,20 +6,15 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
 @Configuration
 public class DataInitializer {
-
-    @Autowired
+@Autowired
     private UserRepository userRepository;
-
     @Autowired
     private PasswordEncoder passwordEncoder;
-
-    @Bean
-    public CommandLineRunner initDatabase() {
+   @Bean
+     public CommandLineRunner initDatabase() {
         return args -> {
-            // Check if test user already exists
             User existingUser = userRepository.findByUsername("lingesh");
             if (existingUser == null) {
                 User user = new User();
