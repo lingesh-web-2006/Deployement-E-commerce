@@ -10,7 +10,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/email")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "frontendecommercemyfirstproject.netlify.app
+
+")
 public class EmailController {
 
     @Autowired
