@@ -7,7 +7,7 @@ import com.ecommerce.dto.OrderRequest;
 import com.ecommerce.service.OrderService;
 @RestController
 @RequestMapping("/order")
-@CrossOrigin(origins = "frontendecommercemyfirstproject.netlify.app
+@CrossOrigin(origins = "https://frontendecommercemyfirstproject.netlify.app
 
 ")
 public class OrderController {
