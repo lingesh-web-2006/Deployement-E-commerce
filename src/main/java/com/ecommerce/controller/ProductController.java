@@ -16,7 +16,7 @@ public class ProductController {
         }
         final String finalBaseUrl = baseUrl;
         return List.of(
-            new Product(1L, "powder", 150, finalBaseUrl + "/images/img1.webp"),
+        
             new Product(2L, "dress", 600, finalBaseUrl + "/images/img%202.webp"),
             new Product(3L, "shoes", 2000, finalBaseUrl + "/images/img%203.webp"),
             new Product(4L, "watch", 1500, finalBaseUrl + "/images/img%204.webp"),
