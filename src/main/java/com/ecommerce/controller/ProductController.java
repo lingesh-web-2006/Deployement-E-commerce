@@ -6,15 +6,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "https://frontenddecommercemyfirstproject.netlify.app")
 public class ProductController {
 
     @GetMapping("/products")
     public List<Product> getProducts(jakarta.servlet.http.HttpServletRequest request) {
+
         String baseUrl = System.getenv("BASE_URL");
         if (baseUrl == null || baseUrl.isEmpty()) {
             baseUrl = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort();
         }
+
         final String finalBaseUrl = baseUrl;
+
         return List.of(
             new Product(1L, "powder", 150, finalBaseUrl + "/images/img1.webp"),
             new Product(2L, "dress", 600, finalBaseUrl + "/images/img%202.webp"),
